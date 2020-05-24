@@ -27,3 +27,6 @@ $ npm install systeminformation --save
 Init the server by using: 
 $ node server.js
 In your browser, perform: http://localhost:1500
+
+#Sample
+![sample](https://user-images.githubusercontent.com/47746423/82758116-05cd3080-9dbb-11ea-964e-65f602ac7ac0.jpeg)
