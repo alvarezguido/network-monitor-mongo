@@ -1,7 +1,7 @@
 collect ();
 
 function collect () {
-  fetch('contacto')
+  fetch('get_data_json')
   .then(response => response.json())
   .then(function(data){
   
