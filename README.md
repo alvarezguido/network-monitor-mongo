@@ -39,7 +39,9 @@ $ npm install systeminformation --save
 #Init
 
 Init the server by using: 
+
 $ node server.js
+
 In your desire browser, perform: http://localhost:1500
 
 #Sample
