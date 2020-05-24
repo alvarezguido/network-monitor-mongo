@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>network-monitor-mongo</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+</head>
+<body>
+<br>
+Traffic in: <select id="unit" name="unit" onchange="collect()">
+  <option value="1">Bps</option>
+  <option value="1024" selected>Kbps</option>
+  <option value="1048576">Mbps</option>
+</select>
+<br>
+<canvas id="myChart" width="50" height="20"></canvas>
+<script type="text/javascript" src="Chart.min.js"></script>
+<script type="text/javascript" src="Chart.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
