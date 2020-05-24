@@ -14,7 +14,9 @@ Displayed traffic is dated (with day, month and year)
 
 #Requisites:
 You will need node js and mongodb installed.
+
 $ sudo apt install nodejs
+
 $ sudo apt install mongodb
 
 #Prepare the project:
