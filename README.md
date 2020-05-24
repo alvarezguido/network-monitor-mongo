@@ -13,22 +13,31 @@ Displayed traffic is dated (with day, month and year)
 
 
 #Requisites:
+
 You will need node js and mongodb installed.
 
 $ sudo apt install nodejs
 
 $ sudo apt install mongodb
 
+
 #Prepare the project:
 1. Drop all the files in your desire folder.
 2. Perfom, inside that folder:
+
 $ npm init
+
 $ npm install express --save
+
 $ npm install mongoose --save
+
 $ npm install systeminformation --save
+
 3. Now you are getting a new folder called node_modules, which is necessary.
 
+
 #Init
+
 Init the server by using: 
 $ node server.js
 In your desire browser, perform: http://localhost:1500
